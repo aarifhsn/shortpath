@@ -77,8 +77,9 @@ This project uses [Dedoc Scramble](https://github.com/dedoc/scramble) for automa
 **Customizing Documentation**
 You can adjust the configuration of Dedoc Scramble in the scramble.php configuration file for custom endpoints, models, or descriptions.
 
-##API Documentation
-###Authentication Endpoints
+## API Documentation
+
+### Authentication Endpoints
 
 **Register**
 
@@ -91,7 +92,8 @@ You can adjust the configuration of Dedoc Scramble in the scramble.php configura
     {
         "name": "string",
         "email": "string",
-        "password": "string"
+        "password": "string",
+        "password_confirmation": "string"
     }
     ```
 
