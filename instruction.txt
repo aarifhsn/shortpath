@@ -1,0 +1,3 @@
+uthentication er jonno sanctum er in-built middleware ase (auth:sanctum) jeita apni jei route e use korben, oitai sanctum auth protected hobe. registration r login route gular jonno ei middleware use korar dorkar nai, login route e POST request send korar shomoy personal access token (Sanctum er built-in`createToken() method ase User model e apply kora jay` jeita diyen token create korte parben) ta db table (personal_acccess_tokens) e store korben. onno shob resource routes gula sanctum protected rakhben r ei token ta diye resource access korben. Token chara access pabe na.
+
+
